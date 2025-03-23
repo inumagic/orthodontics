@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #5DADE2;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -24,6 +24,8 @@
     bottom: 45px;
     z-index: 99;
 }
+
+
 
 
 /*** Spinner ***/

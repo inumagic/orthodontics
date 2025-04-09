@@ -441,7 +441,7 @@
     justify-content: space-between;
     opacity: 0;
     transition: .5s;
-    z-index: 999;
+    z-index: 500;
 }
 
 .testimonial-carousel:hover .owl-nav {

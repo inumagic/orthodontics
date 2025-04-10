@@ -237,10 +237,13 @@
 }
 
 .page-header {
-    background: url(../img/ia5.jpg) top center no-repeat;
+    background: url(../img/AdobeStock_1068979765.jpeg) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
+
+
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
@@ -442,6 +445,7 @@
     opacity: 0;
     transition: .5s;
     z-index: 500;
+    max-width: 100%;
 }
 
 .testimonial-carousel:hover .owl-nav {
@@ -454,6 +458,7 @@
     position: relative;
     color: var(--primary);
     font-size: 45px;
+    max-width: 100%;
     transition: .5s;
 }
 
@@ -519,3 +524,4 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+

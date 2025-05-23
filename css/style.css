@@ -372,7 +372,9 @@
     border-bottom-color: var(--primary);
 }
 
-
+.ps-3{
+    font-size: 1rem;
+}
 /*** Testimonial ***/
 .testimonial-carousel::before {
     position: absolute;

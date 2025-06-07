@@ -526,3 +526,17 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

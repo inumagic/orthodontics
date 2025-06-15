@@ -299,6 +299,13 @@
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
+.news-title{
+    font-size: 2rem;
+}
+
+.news-text p{
+    font-size: 1.5rem;
+}
 
 
 /*** Team ***/

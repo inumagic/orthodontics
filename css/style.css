@@ -237,13 +237,28 @@
 }
 
 .page-header {
-    background: url(../img/AdobeStock_1068979765.jpeg) top center no-repeat;
+    background: url(../img/ia-background.png) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
+.news-title{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.news-text h4{
+    padding-left: 0.5rem;
 
 
+}
+
+.news-text p{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+
+}
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
@@ -298,13 +313,6 @@
     .feature-text  {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
-}
-.news-title{
-    font-size: 2rem;
-}
-
-.news-text p{
-    font-size: 1.5rem;
 }
 
 
@@ -533,6 +541,10 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+body {
+    font-size: 16px;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -546,4 +558,60 @@
     p {
         font-size: 16px;
     }
+}
+
+.treatment-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 30px;
+  color: #333;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .treatment-table-section {
+  background-color: #ffffff; /* 溫暖米白 */
+  border-radius: 12px;
+}
+
+.treatment-table-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.treatment-table th,
+.treatment-table td {
+  border: 1px solid #ddd;
+  padding: 1rem 1rem;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.treatment-table th {
+  background-color: #ffffff; /* 背景灰白 */
+  font-weight: bold;
+  color: #5DADE2 ;
+  font-size: 20px;
+}
+
+.treatment-table th:first-child,
+.treatment-table td:first-child {
+  width: 10%; /* 第一欄佔 20% */
+}
+
+.treatment-table th:nth-child(2),
+.treatment-table td:nth-child(2) {
+  width: 30%; /* 第二欄佔 40% */
+}
+
+.treatment-table th:nth-child(3),
+.treatment-table td:nth-child(3) {
+  width: 30%; /* 第三欄佔 40% */
+}
+
+.treatment-table th:nth-child(4),
+.treatment-table td:nth-child(4) {
+  width: 30%; 
 }
